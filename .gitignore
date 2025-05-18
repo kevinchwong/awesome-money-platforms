@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Secrets and keys
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Ignore all private files
+private/
