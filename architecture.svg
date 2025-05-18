@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- GitHub Actions -->
+  <rect x="50" y="50" width="200" height="100" fill="#f1f1f1" stroke="#000" />
+  <text x="150" y="100" font-size="14" text-anchor="middle" fill="#000">GitHub Actions</text>
+
+  <!-- Daily Platform Update Workflow -->
+  <rect x="300" y="50" width="200" height="100" fill="#e1e1f1" stroke="#000" />
+  <text x="400" y="100" font-size="12" text-anchor="middle" fill="#000">Daily Platform Update</text>
+
+  <!-- Firebase Operations Workflow -->
+  <rect x="550" y="50" width="200" height="100" fill="#e1f1e1" stroke="#000" />
+  <text x="650" y="100" font-size="12" text-anchor="middle" fill="#000">Firebase Operations</text>
+
+  <!-- Python Scripts -->
+  <rect x="50" y="200" width="200" height="100" fill="#f1e1e1" stroke="#000" />
+  <text x="150" y="250" font-size="14" text-anchor="middle" fill="#000">Python Scripts</text>
+
+  <!-- Firebase -->
+  <rect x="300" y="200" width="200" height="100" fill="#e1f1f1" stroke="#000" />
+  <text x="400" y="250" font-size="14" text-anchor="middle" fill="#000">Firebase</text>
+
+  <!-- Environment Variables -->
+  <rect x="550" y="200" width="200" height="100" fill="#f1f1e1" stroke="#000" />
+  <text x="650" y="250" font-size="12" text-anchor="middle" fill="#000">Environment Variables</text>
+
+  <!-- Arrows -->
+  <line x1="250" y1="100" x2="300" y2="100" stroke="#000" marker-end="url(#arrowhead)" />
+  <line x1="500" y1="100" x2="550" y2="100" stroke="#000" marker-end="url(#arrowhead)" />
+  <line x1="150" y1="200" x2="150" y2="150" stroke="#000" marker-end="url(#arrowhead)" />
+  <line x1="400" y1="200" x2="400" y2="150" stroke="#000" marker-end="url(#arrowhead)" />
+  <line x1="650" y1="200" x2="650" y2="150" stroke="#000" marker-end="url(#arrowhead)" />
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000" />
+    </marker>
+  </defs>
+</svg> 
