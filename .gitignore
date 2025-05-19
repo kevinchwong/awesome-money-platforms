@@ -25,3 +25,6 @@ __pycache__/
 dist/
 build/
 *.log
+
+# Ignore all private files
+private/

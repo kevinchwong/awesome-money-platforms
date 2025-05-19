@@ -1,0 +1,39 @@
+name: Firebase Operations
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: 'Operation to perform'
+        required: true
+        type: choice
+        options:
+          - create
+          - clean
+          - get
+          - update
+          - delete
+
+jobs:
+  firebase-operations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install firebase-admin
+          
+      - name: Run Firebase Operations
+        run: |
+          python scripts/firebase_operations.py ${{ github.event.inputs.operation }}
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_COLLECTION: ${{ secrets.FIREBASE_COLLECTION }} 

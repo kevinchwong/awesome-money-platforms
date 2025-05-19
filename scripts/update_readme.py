@@ -7,12 +7,20 @@ from datetime import datetime
 api_key = os.environ.get("ANTHROPIC_API_KEY")
 client = anthropic.Anthropic(api_key=api_key)
 
-def get_latest_platforms(existing_content):
+def get_latest_platforms():
     """Get the latest platform data from Claude"""
     
     # Craft prompt for Claude
     prompt = f"""
     Create a comprehensive, fact-checked list of free platforms for making money online in {datetime.now().year}.
+    
+
+    
+    At the first few lines
+    - # Awesome Free Platforms for Money Making
+    - # [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+    - Show the latest update date timestamp {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+    - And show the github action workflow badge with link to https://github.com/kevinchwong/awesome-money-platforms/actions/workflows/update-readme.yml
     
     The list should be organized into these categories (or more if needed):
     - No-Code & Low-Code Platforms
@@ -43,15 +51,12 @@ def get_latest_platforms(existing_content):
     - Title: "# Awesome Free Platforms for Money Making"
     - Table of contents with links to each section
     - Each category as a section with a table of platforms
-    - 10+ rows of platforms for each category
+    - 8+ rows of platforms for each category
     - Proper markdown tables with headers for Platform, Description, Free Tier, Key Features, Monetization Options, and Beginner Rating
     
     Verify all information is accurate and up-to-date based on your knowledge. Include only platforms that have legitimate free tiers (not just free trials).
     
-    Put the latest update date timestamp at the bottom of the README.
-    
-    The new content should be better then the existing content:
-    {existing_content}
+    Make sure the content is pure markdown and not markdown with code blocks.
     """
     
     # Make API call to Claude
@@ -77,9 +82,5 @@ def update_readme(content):
     print("README.md has been updated successfully!")
 
 if __name__ == "__main__":
-    existing_content = ""
-    if os.path.exists("README.md"):
-        with open("README.md", "r") as f:
-            existing_content = f.read()
-    content = get_latest_platforms(existing_content)
+    content = get_latest_platforms()
     update_readme(content)
