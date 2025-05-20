@@ -16,9 +16,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def validate_environment():
-    """Validate required environment variables."""
-    required_vars = ['FIREBASE_TOKEN', 'FIREBASE_PROJECT_ID', 'FIREBASE_COLLECTION']
+def validate_environment_vars(required_vars):
+    """Validate that all required environment variables are set."""
     missing_vars = [var for var in required_vars if not os.environ.get(var)]
     if missing_vars:
         logger.error(f"Missing required environment variables: {', '.join(missing_vars)}")
@@ -31,32 +30,32 @@ def get_collection_name():
 def initialize_firebase():
     """Initialize Firebase with proper error handling."""
     try:
-        validate_environment()
+        # Validate required environment variables
+        validate_environment_vars(['GCP_SA_KEY', 'FIREBASE_PROJECT_ID', 'FIREBASE_COLLECTION'])
         
-        # Create service account info from environment variables
-        service_account_info = {
-            "type": "service_account",
-            "project_id": os.environ.get('FIREBASE_PROJECT_ID'),
-            "private_key": os.environ.get('FIREBASE_TOKEN').replace('\\n', '\n'),
-            "client_email": f"firebase-adminsdk-{os.environ.get('FIREBASE_PROJECT_ID')}@appspot.gserviceaccount.com",
-            "client_id": "",
-            "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-            "token_uri": "https://oauth2.googleapis.com/token",
-            "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-            "client_x509_cert_url": f"https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-{os.environ.get('FIREBASE_PROJECT_ID')}%40appspot.gserviceaccount.com"
-        }
+        # Retrieve and parse the GCP service account key
+        gcp_sa_key = os.environ.get('GCP_SA_KEY')
+        if not gcp_sa_key:
+            raise ValueError("GCP_SA_KEY environment variable is not set or is empty.")
+        service_account_info = json.loads(gcp_sa_key)
         
         # Log the service account info (without sensitive data)
-        logger.info(f"Initializing Firebase with project ID: {service_account_info['project_id']}")
-        logger.info(f"Using service account email: {service_account_info['client_email']}")
+        logger.info(f"Initializing Firebase with project ID: {service_account_info.get('project_id', 'N/A')}")
+        logger.info(f"Using service account email: {service_account_info.get('client_email', 'N/A')}")
         
         # Initialize Firebase
         cred = credentials.Certificate(service_account_info)
         firebase_admin.initialize_app(cred)
         return firestore.client()
+    except json.JSONDecodeError:
+        logger.error("GCP_SA_KEY is not a valid JSON string. Please check the format of your service account key.")
+        sys.exit(1)
+    except ValueError as ve:
+        logger.error(str(ve))
+        sys.exit(1)
     except Exception as e:
-        logger.error(f"Error initializing Firebase: {str(e)}")
-        logger.error("Please check your FIREBASE_TOKEN and FIREBASE_PROJECT_ID values")
+        logger.error(f"Unexpected error initializing Firebase: {str(e)}")
+        logger.error("Please check your GCP_SA_KEY and other environment variables.")
         sys.exit(1)
 
 def create_document(db, doc_id=None):

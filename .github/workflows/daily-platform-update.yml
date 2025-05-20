@@ -1,25 +1,12 @@
-name: Firebase Operations
+name: Daily Platform Update
 
 on:
-  workflow_dispatch:
-    inputs:
-      operation:
-        description: 'The operation to perform on Firebase'
-        required: true
-        type: choice
-        default: 'create'
-        options:
-          - create
-          - clean
-          - get
-          - update
-          - delete
-          - custom_operation1
-          - custom_operation2
-          # Add more operations here if needed
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
-  run-firebase-operations:
+  update-platforms:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -35,10 +22,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
-      - name: Run Firebase Operations
+      - name: Run Platform Update Script
         env:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
           FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
           FIREBASE_COLLECTION: ${{ secrets.FIREBASE_COLLECTION }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          python scripts/firebase_operations.py ${{ github.event.inputs.operation }}
+          python scripts/update_platforms.py 
