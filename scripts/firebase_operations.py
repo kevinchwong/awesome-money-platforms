@@ -25,13 +25,13 @@ def validate_environment_vars(required_vars):
 
 def get_collection_name():
     """Get collection name from environment variable."""
-    return os.environ.get('FIREBASE_COLLECTION')
+    return os.environ.get('FIREBASE_PLATFORM_COLLECTION')
 
 def initialize_firebase():
     """Initialize Firebase with proper error handling."""
     try:
         # Validate required environment variables
-        validate_environment_vars(['GCP_SA_KEY', 'FIREBASE_PROJECT_ID', 'FIREBASE_COLLECTION'])
+        validate_environment_vars(['GCP_SA_KEY', 'FIREBASE_PROJECT_ID', 'FIREBASE_PLATFORM_COLLECTION'])
         
         # Retrieve and parse the GCP service account key
         gcp_sa_key = os.environ.get('GCP_SA_KEY')

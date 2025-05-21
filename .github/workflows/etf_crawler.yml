@@ -1,0 +1,42 @@
+name: ETF Data Crawler
+
+on:
+  schedule:
+    # Run every 5 minutes during market hours (4:00 AM - 4:00 PM EST)
+    - cron: '*/5 4-15 * * 1-5'  # Every 5 minutes from 4 AM to 3:59 PM EST, Monday to Friday
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  crawl-etf-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas pytz firebase-admin
+          
+      - name: Run ETF Crawler
+        id: run_crawler
+        continue-on-error: true
+        run: |
+          echo "Trigger type: ${{ github.event_name }}"
+          python scripts/etf_crawler.py
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_ETF_COLLECTION: ${{ secrets.FIREBASE_ETF_COLLECTION }}
+          TRIGGER_TYPE: ${{ github.event_name }}
+          
+      - name: Check Run Status
+        if: steps.run_crawler.outcome == 'failure'
+        run: |
+          echo "ETF crawler failed. Check the logs for details."
+          exit 1 

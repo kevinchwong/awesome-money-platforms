@@ -39,6 +39,6 @@ jobs:
         env:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
           FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
-          FIREBASE_COLLECTION: ${{ secrets.FIREBASE_COLLECTION }}
+          FIREBASE_PLATFORM_COLLECTION: ${{ secrets.FIREBASE_PLATFORM_COLLECTION }}
         run: |
           python scripts/firebase_operations.py ${{ github.event.inputs.operation }}

@@ -11,7 +11,7 @@ from datetime import datetime
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Check environment variables
-required_env_vars = ["ANTHROPIC_API_KEY", "GCP_SA_KEY", "FIREBASE_PROJECT_ID", "FIREBASE_COLLECTION"]
+required_env_vars = ["ANTHROPIC_API_KEY", "GCP_SA_KEY", "FIREBASE_PROJECT_ID", "FIREBASE_PLATFORM_COLLECTION"]
 for var in required_env_vars:
     if not os.environ.get(var):
         logging.error(f"{var} environment variable is not set.")
@@ -109,7 +109,7 @@ def update_platforms(db):
         logging.error("No platform data to update.")
         return
 
-    collection_ref = db.collection(os.environ['FIREBASE_COLLECTION'])
+    collection_ref = db.collection(os.environ['FIREBASE_PLATFORM_COLLECTION'])
 
     for platform in platforms['results']:
         try:
