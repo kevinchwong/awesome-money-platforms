@@ -37,7 +37,7 @@ def get_platforms(as_of_date=None,  aims = "popular"):
     if aims == "latest":
         # Craft prompt for Claude
         prompt = f"""
-            Give me a raw JSON array of latest free platforms for making money online as of {as_of_date}
+            Give me a raw JSON array of 18 latest free platforms for making money online as of {as_of_date}
             Big randomness is allowed, so don't be afraid to include some less popular ones
             The platforms should be free,popular and useful, and the data should be accurate and up-to-date.
             Output is pure raw JSON like this:
