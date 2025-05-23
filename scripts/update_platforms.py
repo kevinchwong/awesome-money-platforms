@@ -29,15 +29,17 @@ def get_platforms(as_of_date=None,  aims = "popular"):
     if as_of_date is None:
         as_of_date = datetime.now().strftime("%Y-%m-%d")
 
-    total_expected_platforms = 1000
-    random_rank_start = random.randint(1, total_expected_platforms)
-    batch_size = 18
-    random_rank_end = random_rank_start + batch_size
 
     if aims == "latest":
         # Craft prompt for Claude
+        total_expected_platforms = 100
+        random_rank_start = random.randint(1, total_expected_platforms)
+        batch_size = 18
+        random_rank_end = random_rank_start + batch_size
         prompt = f"""
-            Give me a raw JSON array of 18 latest free platforms for making money online as of {as_of_date}
+            Give me a raw JSON array of latest free platforms for making money online as of {as_of_date}
+            order by descending rank
+            Just give me the platforms in rank {random_rank_start} to {random_rank_end}
             Big randomness is allowed, so don't be afraid to include some less popular ones
             The platforms should be free,popular and useful, and the data should be accurate and up-to-date.
             Output is pure raw JSON like this:
@@ -68,6 +70,10 @@ def get_platforms(as_of_date=None,  aims = "popular"):
         Ensure the JSON is valid and concise, fact-checked and the data is accurate and up-to-date.
         """
     elif aims == "popular":
+        total_expected_platforms = 500
+        random_rank_start = random.randint(1, total_expected_platforms)
+        batch_size = 18
+        random_rank_end = random_rank_start + batch_size
         prompt = f"""
             Give me a raw JSON array of top batch_size popular free platforms for making money online as of {as_of_date} in random category
             Just give me the platforms in rank {random_rank_start} to {random_rank_end}
