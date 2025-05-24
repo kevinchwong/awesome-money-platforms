@@ -23,6 +23,35 @@ for var in required_env_vars:
 api_key = os.environ.get("ANTHROPIC_API_KEY")
 client = anthropic.Anthropic(api_key=api_key)
 
+EXPECTED_OUTPUT_JSON_TEMPLATE = """
+        {{
+            "results": [
+                {{
+                    "category": "<Category Name> (string)",
+                    "cleaned_domain": "<Cleaned domain of the platform as unique identifier, without http:// or https://> (string)",
+                    "name": "<Platform Name> (string)",
+                    "description": "<Brief description of the platform> (string)",
+                    "free_tier_details": "<Details about the free tier> (string)",
+                    "url": "<The main URL of the platform> (string)",
+                    "pricing_url": "<URL for pricing information> (string)",
+                    "quick_start_url": "<URL for getting started quickly> (string)",
+                    "key_features": "<Key features of the platform> (list of strings)",
+                    "monetization_options": "<How to make money using the platform> (string)",
+                    "beginner_friendly": "<A rating from 1 to 5 indicating how beginner-friendly the platform is> (int)",
+                    "usefulness": "<A rating from 1 to 5 indicating the usefulness of the platform> (int)",
+                    "importance": "<A rating from 1 to 5 indicating the importance of the platform> (int)",
+                    "pros": "<A list of pros> (list of strings)",
+                    "cons": "<A list of cons> (list of strings)",
+                    "crawled_at": "{as_of_date}"
+                }},
+                ...
+            ]
+        }}
+        Ensure all urls are accessible.
+        Ensure the JSON is valid and concise, fact-checked and the data is accurate and up-to-date.
+"""
+
+
 def get_platforms(as_of_date=None,  aims = "popular"):
     """Get the latest platform data from Claude"""
     
@@ -34,7 +63,7 @@ def get_platforms(as_of_date=None,  aims = "popular"):
         # Craft prompt for Claude
         total_expected_platforms = 100
         random_rank_start = random.randint(1, total_expected_platforms)
-        batch_size = 18
+        batch_size = 20
         random_rank_end = random_rank_start + batch_size
         prompt = f"""
             Give me a raw JSON array of latest free platforms for making money online as of {as_of_date}
@@ -43,72 +72,35 @@ def get_platforms(as_of_date=None,  aims = "popular"):
             Big randomness is allowed, so don't be afraid to include some less popular ones
             The platforms should be free,popular and useful, and the data should be accurate and up-to-date.
             Output is pure raw JSON like this:
-        {{
-            "results": [
-                {{
-                    "category": "<Category Name> (string)",
-                    "cleaned_domain": "<Cleaned domain of the platform as unique identifier, without http:// or https://> (string)",
-                    "name": "<Platform Name> (string)",
-                    "description": "<Brief description of the platform> (string)",
-                    "free_tier_details": "<Details about the free tier> (string)",
-                    "url": "<The main URL of the platform> (string)",
-                    "pricing_url": "<URL for pricing information> (string)",
-                    "quick_start_url": "<URL for getting started quickly> (string)",
-                    "key_features": "<Key features of the platform> (list of strings)",
-                    "monetization_options": "<How to make money using the platform> (string)",
-                    "beginner_friendly": "<A rating from 1 to 5 indicating how beginner-friendly the platform is> (int)",
-                    "usefulness": "<A rating from 1 to 5 indicating the usefulness of the platform> (int)",
-                    "importance": "<A rating from 1 to 5 indicating the importance of the platform> (int)",
-                    "pros": "<A list of pros> (list of strings)",
-                    "cons": "<A list of cons> (list of strings)",
-                    "crawled_at": "{as_of_date}"
-                }},
-                ...
-            ]
-        }}
-    
-        Ensure the JSON is valid and concise, fact-checked and the data is accurate and up-to-date.
+
+        {EXPECTED_OUTPUT_JSON_TEMPLATE}    
         """
     elif aims == "popular":
         total_expected_platforms = 500
         random_rank_start = random.randint(1, total_expected_platforms)
-        batch_size = 18
+        batch_size = 20
         random_rank_end = random_rank_start + batch_size
         prompt = f"""
-            Give me a raw JSON array of top batch_size popular free platforms for making money online as of {as_of_date} in random category
+            Give me a raw JSON array of top popular free platforms for making money online as of {as_of_date} in random category
             Just give me the platforms in rank {random_rank_start} to {random_rank_end}
             The platforms should be popular and useful, and the data should be accurate and up-to-date.
             Output is pure raw JSON like this:
-        {{
-            "results": [
-                {{
-                    "category": "<Category Name> (string)",
-                    "cleaned_domain": "<Cleaned domain of the platform as unique identifier, without http:// or https://> (string)",
-                    "name": "<Platform Name> (string)",
-                    "description": "<Brief description of the platform> (string)",
-                    "free_tier_details": "<Details about the free tier> (string)",
-                    "url": "<The main URL of the platform> (string)",
-                    "pricing_url": "<URL for pricing information> (string)",
-                    "quick_start_url": "<URL for getting started quickly> (string)",
-                    "key_features": "<Key features of the platform> (list of strings)",
-                    "monetization_options": "<How to make money using the platform> (string)",
-                    "beginner_friendly": "<A rating from 1 to 5 indicating how beginner-friendly the platform is> (int)",
-                    "usefulness": "<A rating from 1 to 5 indicating the usefulness of the platform> (int)",
-                    "importance": "<A rating from 1 to 5 indicating the importance of the platform> (int)",
-                    "pros": "<A list of pros> (list of strings)",
-                    "cons": "<A list of cons> (list of strings)",
-                    "crawled_at": "{as_of_date}"
-                }},
-                ...
-            ]
-        }}
+        {EXPECTED_OUTPUT_JSON_TEMPLATE}
         """
+    else:
+        batch_size = 20
+        prompt = f"""   
+            Give me a raw JSON array of top {batch_size} popular free platforms for making money online as of {as_of_date} in category "{aims}"
+            The platforms should be popular and useful, and the data should be accurate and up-to-date.
+            Output is pure raw JSON like this:
+        {EXPECTED_OUTPUT_JSON_TEMPLATE}    
+        """ 
     try:
         # Make API call to Claude
         response = client.messages.create(
             model="claude-3-5-sonnet-20240620",
             max_tokens=8000,  # Adjusted to ensure response fits within token limit
-            temperature=0.2,
+            temperature=0.4,
             system="You are a helpful assistant that provides accurate, up-to-date JSON data about online platforms for making money.",
             messages=[
                 {"role": "user", "content": prompt}
@@ -148,7 +140,28 @@ def initialize_firebase():
 # Update platforms in Firebase
 
 def update_platforms(db):
-    for aims in ["latest", "popular"]:
+    
+    AIMS = [
+        "latest",
+        "popular",
+        "No-Code & Low-Code Platforms",
+        "AI Application Platforms",
+        "Web Hosting & Deployment",
+        "Content Creation & Publishing",
+        "Online Education & Courses",
+        "Digital Product Sales",
+        "Freelancing & Services",
+        "Community Building & Memberships",
+        "E-Commerce & Marketplace",
+        "Social Media Monetization",
+        "Specialized AI Services",
+        "Automation & Productivity",
+        "Stock Media & Creative Assets",
+        "Mobile App Monetization",
+        "Affiliate Marketing",
+    ]
+    # get the latest platform data from claude
+    for aims in AIMS:
         platforms = get_platforms(aims=aims)
         if not platforms:
             logging.error(f"No {aims} platform data to update.")
@@ -160,12 +173,15 @@ def update_platforms(db):
             try:
                 # Use positional arguments for the query
                 query = collection_ref.where('name_lower', '==', platform['name'].lower().replace(" ", "")).stream()
-                if not any(query):
+                # Convert stream to list to check if any documents exist
+                query_docs = list(query)
+                if not query_docs:
                     platform["name_lower"] = platform["name"].lower().replace(" ", "")
                     collection_ref.add(platform)
                     logging.info(f"Added platform: {aims} {platform['name']}")
                 else:
-                    logging.info(f"Platform already exists: {aims} {platform['name']}")
+                    logging.info(f"Platform already exists, update firebase: {aims} {platform['name']}")
+                    collection_ref.document(query_docs[0].id).update(platform)
             except Exception as e:
                 logging.error(f"Error updating platform {aims} {platform['name']}: {e}")
 
