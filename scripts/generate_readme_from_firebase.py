@@ -103,14 +103,10 @@ def check_url_health(url, timeout=30, max_redirects=5):
                     verify=True  # Verify SSL certificates
                 )
                 
-                # Check if we got a successful response or 403 (Forbidden)
-                if response.status_code < 400 or response.status_code == 403:
+                # Check if we got a successful response
+                if response.status_code < 500:
                     return True
-                    
-                # If we get a 405 (Method Not Allowed), try the next method
-                if response.status_code == 405:
-                    continue
-                    
+                                        
                 # For other status codes, log the issue
                 logger.warning(f"URL {url} returned status code {response.status_code}")
                 return False
@@ -133,7 +129,7 @@ def check_url_health(url, timeout=30, max_redirects=5):
         
         # If we get here, all methods failed
         if last_error:
-            logger.warning(f"All methods failed for {url}. Last error: {str(last_error)}")
+            logger.warning(f"All methods failed for {url} - Last error: {str(last_error)}")
         return False
         
     except Exception as e:
@@ -284,7 +280,7 @@ def main():
     platforms_by_category = get_platforms_from_firebase(db)
     
     # Check URLs and remove invalid platforms
-    platforms_by_category = remove_invalid_platforms(db, platforms_by_category)
+    # platforms_by_category = remove_invalid_platforms(db, platforms_by_category)
     
     readme_content = generate_readme_content(platforms_by_category)
     update_readme(readme_content)
