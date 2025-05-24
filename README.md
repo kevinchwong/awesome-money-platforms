@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Last updated: 2025-05-23 00:31:10
+Last updated: 2025-05-24 00:29:47
 
 [![Update README](https://github.com/kevinchwong/awesome-money-platforms/actions/workflows/update-readme.yml/badge.svg)](https://github.com/kevinchwong/awesome-money-platforms/actions/workflows/update-readme.yml)
 
@@ -31,194 +31,194 @@ A curated list of free platforms for making money online in 2025.
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
 | [Bubble](https://bubble.io) | Visual programming platform for web apps | Basic app hosting, limited users | Drag-and-drop interface, database, API connections | App sales, subscriptions | 4 |
-| [Adalo](https://www.adalo.com) | Mobile app builder without coding | 1 app, 50 monthly active users | Native components, integrations, custom actions | App monetization, in-app purchases | 4 |
-| [Glide](https://www.glideapps.com) | Create apps from spreadsheets | 1 app, 100 monthly active users | Google Sheets integration, templates, custom actions | Freemium model, pro features | 5 |
-| [Webflow](https://webflow.com) | Visual web design and development platform | 2 projects, basic hosting | Responsive design, CMS, animations | Client work, template sales | 3 |
-| [Airtable](https://airtable.com) | Spreadsheet-database hybrid | Unlimited bases, 1,200 records/base | Views, forms, automations, integrations | Template marketplace, consulting | 4 |
-| [Thunkable](https://thunkable.com) | Drag-and-drop mobile app creator | 1 app, basic features | Cross-platform development, live testing | App store publishing, ads | 4 |
-| [AppSheet](https://www.appsheet.com) | No-code app development platform | 10 users, basic features | Data integration, offline functionality | Enterprise app development, consulting | 3 |
-| [Softr](https://www.softr.io) | Website and web app builder | 1 site, 1,000 monthly visits | Airtable integration, membership sites | SaaS products, online communities | 5 |
+| [Adalo](https://www.adalo.com) | Mobile app builder without coding | 1 app, 50 monthly active users | Native components, database, integrations | App sales, in-app purchases | 4 |
+| [Glide](https://www.glideapps.com) | Create apps from spreadsheets | 1 app, 100 monthly active users | Google Sheets integration, templates, custom domains | App subscriptions, white-label | 5 |
+| [Webflow](https://webflow.com) | Visual web design and development platform | 2 projects, basic hosting | Responsive design, CMS, e-commerce | Client work, site templates | 3 |
+| [Airtable](https://airtable.com) | Spreadsheet-database hybrid | 1,200 records per base, 2GB attachment space | Views, forms, automations, integrations | Template marketplace, consulting | 4 |
+| [Softr](https://www.softr.io) | Build web apps from Airtable or Google Sheets | 1 site, 1,000 monthly visits | Templates, custom domains, member portal | SaaS apps, online communities | 5 |
+| [Carrd](https://carrd.co) | Simple, responsive one-page sites | Up to 3 sites, basic features | Customizable templates, forms, custom domains | Pro sites, client work | 5 |
+| [Thunkable](https://thunkable.com) | Drag-and-drop mobile app creator | 1 app, basic features | Cross-platform, AI components, live testing | App sales, freelance development | 4 |
 
 ## AI Application Platforms
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Hugging Face](https://huggingface.co) | AI model hosting and deployment | Model hosting, limited inference | Pre-trained models, fine-tuning, Spaces | AI-powered apps, API services | 3 |
-| [Replicate](https://replicate.com) | Run and deploy AI models | Limited free credits | Wide model selection, API access | AI services, custom model deployment | 4 |
-| [Gradio](https://gradio.app) | Create ML web apps quickly | Unlimited public demos | Easy interface creation, model integration | Consulting, custom AI solutions | 4 |
-| [Streamlit](https://streamlit.io) | Build data apps in Python | Free cloud hosting | Interactive widgets, data visualization | Data products, analytics dashboards | 3 |
-| [Runway](https://runwayml.com) | AI-powered creative tools | Limited free credits | Video editing, image generation | Content creation, AI-assisted production | 5 |
-| [Teachable Machine](https://teachablemachine.withgoogle.com) | Train ML models without coding | Free model training and export | Image, audio, and pose recognition | Custom AI applications, educational tools | 5 |
-| [Obviously AI](https://www.obviously.ai) | No-code machine learning platform | 1 prediction/month | Automated model training, predictions | Data analysis, predictive modeling services | 4 |
-| [Fritz AI](https://www.fritz.ai) | Mobile AI development platform | Core SDK, limited models | On-device ML, easy integration | Mobile app AI features, custom models | 3 |
+| [Hugging Face](https://huggingface.co) | AI model hosting and deployment | Free model hosting, limited inference | Pre-trained models, Spaces for demos | API services, custom model development | 3 |
+| [Replicate](https://replicate.com) | Run and fine-tune AI models in the cloud | Limited free credits | Wide model selection, API access, Cog framework | API services, model marketplace | 4 |
+| [Gradio](https://gradio.app) | Create and share machine learning app demos | Unlimited free demos | Easy interface creation, Python integration | Consulting, custom development | 4 |
+| [Streamlit](https://streamlit.io) | Build and share data apps | Free hosting on Streamlit Cloud | Python-based, interactive widgets | Freelance development, data consulting | 4 |
+| [Roboflow](https://roboflow.com) | Computer vision model creation and deployment | 1,000 free images, basic features | Dataset management, model training, deployment | API services, enterprise solutions | 3 |
+| [Runway](https://runwayml.com) | AI-powered creative tools | Limited free credits | Video editing, image generation, 3D texturing | Content creation, stock assets | 5 |
+| [Teachable Machine](https://teachablemachine.withgoogle.com) | Train machine learning models without code | Completely free | Image, audio, and pose classification | Educational content, custom solutions | 5 |
+| [Obviously AI](https://www.obviously.ai) | No-code machine learning platform | 14-day free trial, limited features | Automated model training, predictions API | Data analysis services, custom models | 4 |
 
 ## Web Hosting & Deployment
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Netlify](https://www.netlify.com) | Static site hosting and serverless backend | 100GB bandwidth, 300 build minutes/month | Continuous deployment, forms, functions | JAMstack websites, SaaS applications | 5 |
-| [Vercel](https://vercel.com) | Frontend deployment and hosting | Unlimited static sites, serverless functions | Next.js integration, preview deployments | Web applications, SaaS products | 4 |
+| [Netlify](https://www.netlify.com) | Static site hosting and serverless backend services | 100GB bandwidth, 300 build minutes/month | Continuous deployment, forms, functions | Freelance development, SaaS apps | 5 |
+| [Vercel](https://vercel.com) | Frontend deployment and serverless functions | Unlimited static sites, 100GB bandwidth | Next.js integration, preview deployments | Web app development, consulting | 4 |
 | [GitHub Pages](https://pages.github.com) | Static site hosting from GitHub repositories | Unlimited public repositories | Custom domains, Jekyll support | Open-source projects, portfolio sites | 4 |
-| [Heroku](https://www.heroku.com) | Cloud application platform | 1 web dyno, 512MB RAM, PostgreSQL | Easy deployment, add-ons marketplace | Web apps, APIs, backend services | 3 |
-| [Firebase Hosting](https://firebase.google.com/products/hosting) | Fast and secure web hosting | 10GB storage, 360MB/day data transfer | CDN, SSL, custom domains | Web apps, mobile app backends | 4 |
-| [Render](https://render.com) | Unified cloud for web apps and sites | Static sites, 100GB/month bandwidth | Automatic HTTPS, global CDN | Full-stack applications, APIs | 4 |
-| [Deta](https://www.deta.sh) | Cloud platform for building and deploying apps | Unlimited micro instances | Serverless runtime, NoSQL database | Backends, APIs, data-driven apps | 5 |
-| [Glitch](https://glitch.com) | Collaborative coding and hosting platform | Unlimited apps, sleep after inactivity | Real-time collaboration, instant deployment | Web experiments, prototypes, tutorials | 5 |
+| [Heroku](https://www.heroku.com) | Cloud application platform | 1 web dyno, 512MB RAM, 5 free apps | Easy deployment, add-ons marketplace | SaaS applications, API services | 3 |
+| [Firebase Hosting](https://firebase.google.com/products/hosting) | Fast and secure web hosting | 10GB storage, 360MB/day data transfer | CDN, custom domains, SSL certificates | Web apps, mobile app backends | 4 |
+| [Render](https://render.com) | Unified cloud for web apps and static sites | Static sites, 100GB/month bandwidth | Automatic HTTPS, global CDN, pull request previews | Full-stack applications, APIs | 4 |
+| [Cloudflare Pages](https://pages.cloudflare.com) | JAMstack platform for frontend developers | Unlimited sites, builds, and requests | Global CDN, custom domains, CI/CD | Static sites, SPA hosting | 5 |
+| [Deta](https://www.deta.sh) | Cloud platform for building and deploying apps | Unlimited micro instances | NoSQL database, file storage, cron jobs | Serverless apps, backend services | 4 |
 
 ## Content Creation & Publishing
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Medium](https://medium.com) | Online publishing platform | Unlimited stories, limited earnings | Large audience, publications, partner program | Article views, memberships | 5 |
-| [Substack](https://substack.com) | Newsletter and blog platform | Unlimited free subscribers | Email newsletters, website, analytics | Paid subscriptions, sponsorships | 4 |
-| [WordPress.com](https://wordpress.com) | Website and blog hosting | 3GB storage, basic features | Themes, plugins, customization | Ads, upgrades, e-commerce | 4 |
-| [Ghost](https://ghost.org) | Professional publishing platform | Self-hosted option | Modern editor, memberships, integrations | Subscriptions, sponsored content | 3 |
-| [Wix](https://www.wix.com) | Website builder with blogging | Free site with Wix branding | Drag-and-drop editor, templates, apps | Premium plans, e-commerce | 5 |
-| [Vocal](https://vocal.media) | Storytelling platform | Unlimited stories | Engagement bonuses, challenges | Tips, reads, referrals | 4 |
+| [Medium](https://medium.com) | Online publishing platform | Unlimited stories, limited features | Large audience, publications, partner program | Article earnings, subscriptions | 5 |
+| [Substack](https://substack.com) | Newsletter and blog publishing platform | Unlimited free subscribers | Email newsletters, website, analytics | Paid subscriptions, sponsorships | 5 |
+| [WordPress.com](https://wordpress.com) | Website and blog hosting platform | 3GB storage, basic features | Customizable themes, plugins, domains | Ads, premium plans, e-commerce | 4 |
+| [Ghost](https://ghost.org) | Professional publishing platform | Self-hosted option (free) | Modern editor, memberships, newsletters | Paid subscriptions, sponsorships | 3 |
+| [Wix](https://www.wix.com) | Website builder with blogging capabilities | 500MB storage, Wix branding | Drag-and-drop editor, templates, apps | Premium plans, e-commerce | 5 |
+| [Vocal](https://vocal.media) | Storytelling platform for creators | Unlimited stories, basic features | Built-in audience, challenges, tipping | Story reads, tips, challenges | 4 |
 | [Hashnode](https://hashnode.com) | Blogging platform for developers | Unlimited articles, custom domain | Dev-focused community, newsletters | Sponsorships, job board | 5 |
-| [Notion](https://www.notion.so) | All-in-one workspace | Unlimited pages, basic sharing | Databases, wikis, project management | Templates, consulting, integrations | 4 |
+| [Notion](https://www.notion.so) | All-in-one workspace for notes and docs | Unlimited pages, basic sharing | Databases, wikis, project management | Templates, consulting, courses | 4 |
 
 ## Online Education & Courses
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Udemy](https://www.udemy.com) | Online course marketplace | Course creation tools | Video hosting, quizzes, certificates | Course sales, affiliate program | 4 |
-| [Teachable](https://teachable.com) | Course creation and selling platform | Limited features, high transaction fees | Custom domain, integrated payments | Course sales, coaching, memberships | 3 |
-| [Skillshare](https://www.skillshare.com) | Creative skill-sharing platform | Course creation tools | Project-based classes, community | Royalties based on watch time | 4 |
-| [Thinkific](https://www.thinkific.com) | Online course platform | 1 course, unlimited students | Course builder, basic quizzes | Course sales, memberships | 4 |
-| [edX](https://www.edx.org) | MOOC provider | Course auditing | University partnerships, certificates | Verified certificates, degree programs | 3 |
-| [Google Digital Garage](https://learndigital.withgoogle.com) | Digital skills training | All courses free | Certificates, practical exercises | Career advancement, freelancing | 5 |
-| [FutureLearn](https://www.futurelearn.com) | Online education platform | Course auditing | University partnerships, social learning | Certificates, degree programs | 4 |
-| [Khan Academy](https://www.khanacademy.org) | Free educational content | All courses free | Video lessons, practice exercises | Donations, grants, partnerships | 5 |
+| [Udemy](https://www.udemy.com) | Online course marketplace | Free course creation and hosting | Video hosting, quizzes, certificates | Course sales, affiliate program | 4 |
+| [Teachable](https://teachable.com) | Course creation and selling platform | Limited free plan (1 course, 10 students) | Custom domain, integrated payments, marketing tools | Course sales, coaching services | 4 |
+| [Skillshare](https://www.skillshare.com) | Creative skill-sharing platform | Free class creation | Project-based learning, community features | Royalties based on watch time | 4 |
+| [Thinkific](https://www.thinkific.com) | All-in-one course creation platform | Free plan with core features | Drag-and-drop course builder, quizzes, certificates | Course sales, memberships | 3 |
+| [edX](https://www.edx.org) | MOOC provider for higher education | Free course auditing | University partnerships, verified certificates | Certificate fees, degree programs | 3 |
+| [Coursera](https://www.coursera.org) | Online learning platform | Free course auditing | University partnerships, specializations | Certificate fees, degree programs | 3 |
+| [FutureLearn](https://www.futurelearn.com) | Social learning platform | Free short courses | University partnerships, social learning features | Upgraded courses, degree programs | 4 |
+| [Khan Academy](https://www.khanacademy.org) | Free educational content platform | All content free | Video lessons, practice exercises, personalized learning | Donations, partnerships | 5 |
 
 ## Digital Product Sales
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Gumroad](https://gumroad.com) | Sell digital products directly | No monthly fee, transaction fees apply | Easy setup, affiliate program | Digital downloads, subscriptions | 5 |
-| [Payhip](https://payhip.com) | E-commerce for digital products | Free plan with 5% transaction fee | Customizable storefront, EU VAT handling | E-books, courses, software | 5 |
-| [Sellfy](https://sellfy.com) | All-in-one e-commerce solution | Free plan with limited features | Print-on-demand, subscriptions | Digital and physical products | 4 |
-| [SendOwl](https://www.sendowl.com) | Digital product delivery system | Pay-as-you-go option | Secure delivery, affiliate management | Software, e-books, videos | 4 |
-| [Podia](https://www.podia.com) | All-in-one digital storefront | No free plan, but no transaction fees | Courses, downloads, memberships | Online courses, digital downloads | 3 |
-| [Leanpub](https://leanpub.com) | Platform for self-publishing e-books | Free to publish, royalty share | In-progress publishing, multiple formats | E-books, courses | 4 |
-| [Itch.io](https://itch.io) | Marketplace for indie games | Free uploads, optional revenue share | Community features, game jams | Indie games, game assets | 5 |
-| [Creative Market](https://creativemarket.com) | Marketplace for design assets | Free to join, commission on sales | Large audience, shop customization | Graphics, fonts, templates | 4 |
+| [Gumroad](https://gumroad.com) | Digital product marketplace | Free account, pay-as-you-earn fees | Easy setup, affiliate program, email marketing | Digital downloads, memberships | 5 |
+| [Payhip](https://payhip.com) | E-commerce platform for digital products | Free plan with 5% transaction fee | Customizable storefront, EU VAT handling | E-books, courses, software | 5 |
+| [Sellfy](https://sellfy.com) | All-in-one e-commerce solution | Free plan with limited features | Print-on-demand, subscriptions, marketing tools | Digital and physical products | 4 |
+| [SendOwl](https://www.sendowl.com) | Digital download delivery service | Free plan with basic features | Secure file delivery, affiliate management | Software, e-books, videos | 4 |
+| [Podia](https://www.podia.com) | All-in-one digital storefront | Free plan with 8% transaction fee | Courses, digital downloads, webinars | Online courses, memberships | 4 |
+| [Lemon Squeezy](https://www.lemonsqueezy.com) | Digital product checkout and delivery | Free plan with 5% + $0.50 per transaction | Instant payouts, VAT/tax compliance | Software licenses, e-books | 5 |
+| [Paddle](https://paddle.com) | Complete payments solution for SaaS | Free account, pay-as-you-go pricing | Global tax compliance, subscription management | Software, SaaS products | 3 |
+| [E-junkie](https://www.e-junkie.com) | Shopping cart for digital downloads | Free 7-day trial, then paid plans | Secure delivery, affiliate program | E-books, music, software | 4 |
 
 ## Freelancing & Services
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Fiverr](https://www.fiverr.com) | Freelance services marketplace | Free to join, commission on sales | Gig-based system, levels | Service sales, upsells | 5 |
-| [Upwork](https://www.upwork.com) | Freelance job platform | Free to join, connects system | Job board, time tracking | Hourly or fixed-price jobs | 4 |
-| [Freelancer](https://www.freelancer.com) | Freelance and crowdsourcing marketplace | Free to join, bid limits | Contest system, milestone payments | Project-based work, contests | 4 |
-| [Toptal](https://www.toptal.com) | Elite freelance network | Free to apply, selective | High-paying clients, steady work | Long-term contracts, consulting | 2 |
-| [99designs](https://99designs.com) | Design contest platform | Free to join, contest fees | Design competitions, 1-to-1 projects | Contest winnings, direct clients | 3 |
-| [PeoplePerHour](https://www.peopleperhour.com) | Freelance services marketplace | Free to join, commission on sales | Hourlies (pre-packaged services) | Project-based work, Hourlies | 4 |
-| [Guru](https://www.guru.com) | Freelance job platform | Free to join, bid limits | WorkRooms, SafePay | Fixed price or hourly jobs | 4 |
-| [Contra](https://contra.com) | Freelance platform for independents | Free to join, no fees | Direct client matching, payments | Project-based work, retainers | 5 |
+| [Fiverr](https://www.fiverr.com) | Freelance services marketplace | Free account, 20% service fee | Gig-based system, levels, buyer requests | Service sales, upsells | 5 |
+| [Upwork](https://www.upwork.com) | Freelance talent platform | Free account, 20% service fee (sliding scale) | Job board, time tracking, payment protection | Hourly or fixed-price projects | 4 |
+| [Freelancer](https://www.freelancer.com) | Freelance and crowdsourcing marketplace | Free account, 10% or $5 fee (whichever is greater) | Project bidding, contests, time tracking | Project-based work, contests | 4 |
+| [PeoplePerHour](https://www.peopleperhour.com) | Freelance services platform | Free account, 20% service fee | Hourlies (pre-packaged services), proposals | Fixed-price and hourly projects | 4 |
+| [Toptal](https://www.toptal.com) | Elite freelance talent network | Free account (for clients) | Rigorous screening process, talent matching | High-end consulting, development | 2 |
+| [99designs](https://99designs.com) | Graphic design contest platform | Free account (for clients) | Design contests, 1-to-1 projects | Logo design, branding, web design | 3 |
+| [Guru](https://www.guru.com) | Freelance job marketplace | Free account, 8.95% service fee | WorkRooms, SafePay, quote-based jobs | Fixed-price and hourly projects | 4 |
+| [Contra](https://contra.com) | Independent professional network | Free account, no platform fees | Direct client connections, project management | Freelance projects, retainers | 5 |
 
 ## Community Building & Memberships
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Patreon](https://www.patreon.com) | Membership platform for creators | Free to start, platform fees apply | Tiered memberships, content delivery | Monthly pledges, special perks | 4 |
-| [Buy Me a Coffee](https://www.buymeacoffee.com) | Support platform for creators | Free to join, small transaction fee | One-time and monthly support | Donations, memberships, commissions | 5 |
-| [Ko-fi](https://ko-fi.com) | Creator support and shop platform | Free plan, optional Gold features | Donations, shop, commissions | Tips, product sales, memberships | 5 |
-| [Discord](https://discord.com) | Community chat and voice platform | Free servers and channels | Text, voice, video communication | Premium memberships, integrations | 4 |
-| [Circle](https://circle.so) | All-in-one community platform | Limited free plan | Discussions, events, courses | Paid memberships, online courses | 3 |
-| [Mighty Networks](https://www.mightynetworks.com) | Community and course platform | Free trial, paid plans | Courses, events, memberships | Subscriptions, online courses | 3 |
-| [Geneva](https://geneva.com) | Group chat and community platform | Completely free | Rooms, events, moderation tools | Brand partnerships, premium features | 5 |
-| [Tribe](https://tribe.so) | Community engagement platform | Free plan with basic features | Discussions, Q&A, ideation | Premium memberships, white-label options | 4 |
+| [Patreon](https://www.patreon.com) | Membership platform for creators | Free account, 5-12% + $0.30 per transaction | Tiered memberships, content gating, analytics | Monthly subscriptions, special perks | 4 |
+| [Buy Me a Coffee](https://www.buymeacoffee.com) | Support platform for creators | Free account, 5% transaction fee | One-time and monthly support, page customization | Donations, memberships, commissions | 5 |
+| [Ko-fi](https://ko-fi.com) | Creator support and tipping platform | Free account, no platform fees | Donations, commissions, memberships | Tips, monthly subscriptions, shop | 5 |
+| [Discord](https://discord.com) | Community chat and voice platform | Free servers and channels | Text, voice, and video chat, roles, integrations | Premium memberships, server boosts | 4 |
+| [Circle](https://circle.so) | All-in-one community platform | Free plan for up to 100 members | Discussions, events, courses, memberships | Paid communities, online courses | 3 |
+| [Mighty Networks](https://www.mightynetworks.com) | Community, courses, and membership platform | Free 14-day trial, then paid plans | Custom branding, courses, events | Paid memberships, online courses | 3 |
+| [Geneva](https://geneva.com) | Group chat and community platform | Completely free | Rooms, events, polls, integrations | Brand partnerships, premium features | 5 |
+| [Tribe](https://tribe.so) | Community-building platform | Free plan up to 500 members | Discussions, Q&A, ideation, integrations | Paid memberships, white-label options | 4 |
 
 ## E-Commerce & Marketplace
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Etsy](https://www.etsy.com) | Handmade and vintage marketplace | Free to join, listing fees | Large audience, seller tools | Product sales, digital items | 4 |
-| [Shopify](https://www.shopify.com) | E-commerce platform | 14-day free trial | Store builder, payment processing | Product sales, dropshipping | 3 |
-| [WooCommerce](https://woocommerce.com) | WordPress e-commerce plugin | Free plugin, hosting costs apply | Customizable, extensions | Physical and digital product sales | 3 |
-| [Big Cartel](https://www.bigcartel.com) | Online store for artists | Free plan for up to 5 products | Custom domain, order management | Product sales, limited features | 5 |
-| [Redbubble](https://www.redbubble.com) | Print-on-demand marketplace | Free to join, commission on sales | Wide product range, automatic fulfillment | Artwork on physical products | 5 |
-| [Bonanza](https://www.bonanza.com) | Online marketplace | Free to list, final value fees | Google Shopping integration | Product sales, advertising | 4 |
-| [Storenvy](https://www.storenvy.com) | Social marketplace and store builder | Free store, marketplace fees | Custom storefronts, social features | Product sales, marketplace exposure | 4 |
-| [Square Online](https://squareup.com/online-store) | E-commerce and point of sale | Free plan available | Inventory sync, order management | In-person and online sales | 4 |
+| [Etsy](https://www.etsy.com) | Handmade and vintage marketplace | Free account, $0.20 listing fee | Large audience, seller tools, Etsy ads | Product sales, digital downloads | 5 |
+| [Shopify](https://www.shopify.com) | E-commerce platform | 14-day free trial, then paid plans | Store builder, payment processing, apps | Product sales, dropshipping | 4 |
+| [WooCommerce](https://woocommerce.com) | WordPress e-commerce plugin | Free plugin, hosting costs apply | Customizable, extensions, WordPress integration | Physical and digital product sales | 3 |
+| [Big Cartel](https://www.bigcartel.com) | Online store for artists and makers | Free plan for up to 5 products | Custom domain, order management, analytics | Product sales, commissions | 5 |
+| [Redbubble](https://www.redbubble.com) | Print-on-demand marketplace | Free account, earnings from markup | Wide product range, automatic fulfillment | Artwork on physical products | 5 |
+| [Bonanza](https://www.bonanza.com) | Online marketplace for unique items | Free account, 3.5% final offer value fee | Google Shopping integration, advertising tools | Product sales, booth promotions | 4 |
+| [Storenvy](https://www.storenvy.com) | Social marketplace and store creator | Free store, 10% marketplace commission | Custom storefronts, social features | Product sales, custom stores | 5 |
+| [eBay](https://www.ebay.com) | Global online marketplace | Free account, insertion and final value fees | Large audience, auction and fixed-price listings | New and used item sales | 4 |
 
 ## Social Media Monetization
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [YouTube](https://www.youtube.com) | Video sharing platform | Free uploads, monetization eligibility required | Large audience, analytics | Ad revenue, channel memberships | 4 |
-| [TikTok](https://www.tiktok.com) | Short-form video platform | Free to use, Creator Fund eligibility | Viral potential, effects | Creator Fund, brand partnerships | 5 |
-| [Instagram](https://www.instagram.com) | Photo and video sharing | Free to use, business features | Large user base, Stories, Reels | Sponsored posts, affiliate marketing | 4 |
-| [Twitch](https://www.twitch.tv) | Live streaming platform | Free streaming, monetization eligibility | Live interaction, subscriptions | Donations, subscriptions, bits | 3 |
-| [Twitter](https://twitter.com) | Microblogging platform | Free to use | Large audience, trending topics | Super Follows, Ticketed Spaces | 4 |
-| [Facebook](https://www.facebook.com) | Social networking platform | Free to use, monetization eligibility | Huge user base, groups, pages | In-stream ads, fan subscriptions | 3 |
-| [LinkedIn](https://www.linkedin.com) | Professional networking | Free profile and content | Professional audience, articles | Premium content, course sales | 4 |
-| [Pinterest](https://www.pinterest.com) | Visual discovery platform | Free to use | Visual search, idea pins | Affiliate marketing, product pins | 4 |
+| [YouTube](https://www.youtube.com) | Video sharing and streaming platform | Free account and uploads | Large audience, analytics, community features | Ad revenue, channel memberships, Super Chat | 4 |
+| [TikTok](https://www.tiktok.com) | Short-form video platform | Free account and uploads | Viral potential, effects and sounds library | Creator Fund, brand partnerships, live gifts | 5 |
+| [Instagram](https://www.instagram.com) | Photo and video sharing social network | Free account and posts | Large user base, Stories, Reels | Sponsored posts, affiliate marketing, shop | 4 |
+| [Twitch](https://www.twitch.tv) | Live streaming platform | Free account and streaming | Interactive broadcasts, chat, extensions | Subscriptions, bits, ads, sponsorships | 3 |
+| [Twitter](https://twitter.com) | Microblogging and social networking service | Free account and tweets | Real-time engagement, threads, spaces | Super Follows, Tips, newsletter integration | 4 |
+| [Facebook](https://www.facebook.com) | Social networking platform | Free account and pages | Large user base, groups, marketplace | Ads, branded content, fan subscriptions | 4 |
+| [LinkedIn](https://www.linkedin.com) | Professional networking platform | Free account and posts | Professional audience, articles, newsletters | Premium content, courses, lead generation | 3 |
+| [Pinterest](https://www.pinterest.com) | Visual discovery engine | Free account and pins | Visual search, boards, idea pins | Affiliate marketing, product pins, ads | 4 |
 
 ## Specialized AI Services
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Anthropic](https://www.anthropic.com) | AI research and deployment | Limited free API access | Advanced language models, safety focus | AI-powered applications, consulting | 3 |
-| [Midjourney](https://www.midjourney.com) | AI image generation | Limited free generations | High-quality art creation, community | Custom artwork, design services | 4 |
-| [Stability AI](https://stability.ai) | Open-source AI models | Free model access, usage limits | Text-to-image, image-to-image | AI-generated content, custom solutions | 3 |
-| [AssemblyAI](https://www.assemblyai.com) | Speech recognition API | 3 hours free per month | Transcription, speaker diarization | Voice apps, transcription services | 4 |
-| [Cohere](https://cohere.ai) | NLP model API | Free tier with usage limits | Text generation, classification | Language-based applications, chatbots | 3 |
-| [Clarifai](https://www.clarifai.com) | Computer vision AI platform | Free tier with API limits | Image and video recognition | AI-powered visual search, content moderation | 4 |
-| [Deepgram](https://deepgram.com) | Speech recognition API | Free tier with usage limits | Real-time transcription, speaker recognition | Voice analytics, subtitle generation | 4 |
-| [Roboflow](https://roboflow.com) | Computer vision development platform | Free tier for public projects | Dataset management, model training | Custom object detection, consulting | 3 |
+| [Anthropic Claude](https://www.anthropic.com) | AI language model and assistant | Limited free usage | Advanced language understanding, task completion | API integration, custom solutions | 3 |
+| [Midjourney](https://www.midjourney.com) | AI image generation | Limited free trial | High-quality image creation, style customization | Artwork sales, design services | 4 |
+| [Stability AI](https://stability.ai) | Open-source AI models | Free for non-commercial use | Image, audio, and language models | Commercial licensing, custom development | 3 |
+| [OpenAI API](https://openai.com/api/) | AI model APIs for various tasks | Free tier with usage limits | GPT-3, DALL-E, Whisper integration | API services, AI-powered applications | 3 |
+| [DeepL](https://www.deepl.com) | AI-powered translation service | Free tier with character limit | High-quality translations, API access | Professional translation services, API integration | 5 |
+| [Jasper](https://www.jasper.ai) | AI writing assistant | Free trial, then paid plans | Content generation, SEO optimization | Copywriting services, content creation | 4 |
+| [Synthesia](https://www.synthesia.io) | AI video generation platform | Free demo videos | Text-to-video, custom avatars | Video production services, API access | 4 |
+| [Krisp](https://krisp.ai) | AI-powered noise cancellation | Free tier with limited usage | Background noise removal, voice enhancement | Premium subscriptions, API integration | 5 |
 
 ## Automation & Productivity
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [IFTTT](https://ifttt.com) | Workflow automation platform | Limited free applets | Wide service integrations | Pro features, custom solutions | 5 |
-| [Zapier](https://zapier.com) | Task automation platform | 5 single-step Zaps | Multi-app integrations, templates | Workflow optimization, consulting | 4 |
-| [Make (Integromat)](https://www.make.com) | Visual automation platform | 1,000 operations/month | Complex workflows, data mapping | Process automation, integration services | 3 |
-| [n8n](https://n8n.io) | Workflow automation tool | Self-hosted option | Node-based workflows, extendable | Custom automation solutions, plugins | 3 |
-| [Automate.io](https://automate.io) | Business process automation | 5 single-action bots | Simple interface, popular app integrations | Workflow optimization, B2B services | 4 |
-| [Microsoft Power Automate](https://powerautomate.microsoft.com) | Process automation platform | Limited free flows | Microsoft 365 integration, AI Builder | Business process optimization, consulting | 3 |
-| [Pipedream](https://pipedream.com) | Integration platform for developers | Free tier with usage limits | Code-level control, quick deployments | Custom integrations, API services | 2 |
-| [Huginn](https://github.com/huginn/huginn) | Open-source automation platform | Self-hosted, completely free | Highly customizable, agent-based system | Personal automation, data collection | 2 |
+| [IFTTT](https://ifttt.com) | Workflow automation platform | Free tier with limited applets | Wide range of integrations, easy setup | Pro plans, custom solutions | 5 |
+| [Zapier](https://zapier.com) | Task automation for apps and services | Free plan with 100 tasks/month | Multi-step zaps, wide app support | Freelance automation setup, consulting | 4 |
+| [Make (Integromat)](https://www.make.com) | Visual automation platform | Free plan with 1,000 ops/month | Complex workflows, data mapping | Automation services, custom integrations | 3 |
+| [Automate.io](https://automate.io) | Business process automation | Free plan with 300 actions/month | Multi-app bots, conditional logic | Workflow optimization, consulting | 4 |
+| [n8n](https://n8n.io) | Workflow automation tool | Self-hosted option (free) | Node-based workflows, extendable | Custom automation development, hosting | 3 |
+| [Airtable Automations](https://www.airtable.com/product/automations) | Built-in automation for Airtable | Included in free Airtable plan | Table-specific actions, schedules | Database design, automation setup | 4 |
+| [Microsoft Power Automate](https://powerautomate.microsoft.com) | Process automation platform | Free plan with limited flows | Microsoft 365 integration, AI Builder | Workflow consulting, app development | 3 |
+| [Tasker](https://tasker.joaoapps.com) | Android automation app | One-time purchase | Device-level automation, plugins | App development, automation templates | 2 |
 
 ## Stock Media & Creative Assets
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Unsplash](https://unsplash.com) | Free stock photo platform | All images free to use | High-quality photos, API access | Photography services, sponsored images | 5 |
-| [Pexels](https://www.pexels.com) | Free stock photos and videos | All media free to use | Large library, video content | Sponsored content, affiliate marketing | 5 |
-| [Pixabay](https://pixabay.com) | Free stock images and videos | Extensive free library | Illustrations, vectors, music | Sponsored content, premium collections | 5 |
-| [Canva](https://www.canva.com) | Graphic design platform | Basic features and templates free | Easy-to-use editor, team collaboration | Design services, print products | 5 |
-| [Freepik](https://www.freepik.com) | Graphic resources platform | Limited free downloads | Vectors, stock photos, icons | Premium plan, extended licenses | 4 |
-| [Mixkit](https://mixkit.co) | Free video and music platform | All assets free to use | Stock footage, music tracks, sound effects | Sponsored content, premium collections | 5 |
-| [Flaticon](https://www.flaticon.com) | Icon database | Limited free downloads | Customizable icons, editor tool | Premium plan, custom icon design | 4 |
-| [Videvo](https://www.videvo.net) | Free stock video footage | Large free library | HD and 4K clips, motion graphics | Premium plan, sponsored content | 5 |
+| [Unsplash](https://unsplash.com) | Free high-resolution photo community | All images free to use | Large collection, API access | Sponsored images, affiliate links | 5 |
+| [Pexels](https://www.pexels.com) | Free stock photos and videos | All media free to use | High-quality content, easy search | Sponsored content, API integration | 5 |
+| [Pixabay](https://pixabay.com) | Free images, videos, and music | All content free to use | Diverse media types, API access | Sponsored content, print-on-demand | 5 |
+| [Canva](https://www.canva.com) | Graphic design platform | Free plan with basic features | Templates, stock images, collaboration | Design services, premium assets | 5 |
+| [Freepik](https://www.freepik.com) | Graphic resources for everyone | Limited free downloads | Vectors, photos, PSD files | Premium plan reselling, custom design | 4 |
+| [Mixkit](https://mixkit.co) | Free video clips, music, and templates | All assets free to use | High-quality stock footage, sound effects | Artlist subscription upsell | 5 |
+| [Flaticon](https://www.flaticon.com) | Database of free icons | Limited free downloads | Customizable icons, web plugin | Icon pack sales, custom icon design | 4 |
+| [Creative Market](https://creativemarket.com) | Marketplace for design assets | Free goods of the week | Wide range of digital assets | Asset sales, shop customization | 3 |
 
 ## Mobile App Monetization
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Google AdMob](https://admob.google.com) | Mobile app monetization platform | Free to integrate | Multiple ad formats, mediation | In-app ads, app open ads | 4 |
-| [Unity Ads](https://unity.com/products/unity-ads) | Game monetization platform | Free to integrate | Cross-promotion, IAP optimization | Video ads, offerwall | 3 |
-| [AppLovin](https://www.applovin.com) | Mobile app monetization and marketing | Free integration, revenue share | MAX mediation, analytics | In-app ads, app bidding | 3 |
-| [Tapjoy](https://www.tapjoy.com) | Mobile advertising and monetization | Free to integrate | Offerwall, rewarded ads | In-app advertising, user acquisition | 4 |
-| [ironSource](https://www.is.com) | App monetization and marketing | Free integration, revenue share | LevelPlay mediation, cross-promotion | In-app ads, offerwall | 3 |
-| [MoPub](https://www.mopub.com) | Mobile app monetization platform | Free integration, revenue share | Header bidding, flexible waterfall | In-app advertising, real-time bidding | 3 |
-| [Vungle](https://vungle.com) | In-app video ad platform | Free to integrate | Creative optimization, LTV optimization | Video ads, playable ads | 4 |
-| [AdColony](https://www.adcolony.com) | Mobile video advertising platform | Free integration, revenue share | HD video ads, Aurora HD Interactive | Video ads, display ads | 4 |
+| [Google AdMob](https://admob.google.com) | Mobile app monetization platform | Free account, pay per performance | Multiple ad formats, mediation | In-app ads, app open ads | 4 |
+| [Unity Ads](https://unity.com/products/unity-ads) | Mobile game monetization solution | Free integration, revenue share | Cross-promotion, multiple ad types | Rewarded video ads, interstitials | 3 |
+| [AppLovin](https://www.applovin.com) | Mobile app monetization and marketing | Free account, revenue share | MAX mediation, AppDiscovery | In-app ads, app bidding | 3 |
+| [Tapjoy](https://www.tapjoy.com) | Mobile advertising and app monetization | Free account, revenue share | Offerwall, rewarded ads | In-app purchases, rewarded surveys | 4 |
+| [ironSource](https://www.is.com) | App monetization and marketing platform | Free account, revenue share | LevelPlay mediation, cross-promotion | In-app ads, offerwall | 3 |
+| [MoPub](https://www.mopub.com) | Mobile app monetization platform | Free account, revenue share | Header bidding, flexible waterfall | In-app ads, real-time bidding | 3 |
+| [Vungle](https://vungle.com) | In-app video ad network | Free account, revenue share | Creative optimization, global demand | Video ads, playable ads | 4 |
+| [AdColony](https://www.adcolony.com) | Mobile video advertising platform | Free account, revenue share | HD video ads, Aurora HD Interactive | Rewarded video, interstitial ads | 3 |
 
 ## Affiliate Marketing
 
 | Platform | Description | Free Tier | Key Features | Monetization Options | Beginner Rating |
 |----------|-------------|-----------|--------------|----------------------|-----------------|
-| [Amazon Associates](https://affiliate-program.amazon.com) | Amazon's affiliate program | Free to join | Vast product selection, easy linking tools | Product commissions, bounties | 5 |
-| [ShareASale](https://www.shareasale.com) | Affiliate marketing network | Free for affiliates | Wide range of merchants, real-time tracking | Product and service commissions | 4 |
-| [CJ Affiliate](https://www.cj.com) | Large affiliate marketing network | Free for affiliates | High-profile brands, deep linking | Diverse commission structures | 3 |
-| [ClickBank](https://www.clickbank.com) | Digital product affiliate platform | Free to join | High commission rates, instant payouts | Digital product promotions | 4 |
-| [Rakuten Advertising](https://rakutenadvertising.com) | Global affiliate network | Free for affiliates | Global brands, advanced tracking | Multi-channel commissions | 3 |
-| [Awin](https://www.awin.com) | Global affiliate network | Free for affiliates, admin fee refundable | Cross-device tracking, influencer program | Retail, travel, finance verticals | 4 |
-| [Impact](https://impact.com) | Partnership automation platform | Free for affiliates | Direct brand partnerships, automation | Performance-based partnerships | 3 |
-| [Partnerize](https://partnerize.com) | Partnership management platform | Free for affiliates | AI-powered insights, flexible commissioning | Brand to brand partnerships | 3 |
+| [Amazon Associates](https://affiliate-program.amazon.com) | Amazon's affiliate marketing program | Free account | Wide product selection, easy link building | Product commissions, bounties | 5 |
+| [ShareASale](https://www.shareasale.com) | Affiliate marketing network | Free account | Diverse merchant base, real-time reporting | Product and service commissions | 4 |
+| [CJ Affiliate](https://www.cj.com) | Global affiliate marketing network | Free account | Large advertiser network, deep linking | Product and service commissions | 3 |
+| [ClickBank](https://www.clickbank.com) | Affiliate marketplace for digital products | Free account | High commission rates, instant payouts | Digital product commissions | 4 |
+| [Rakuten Advertising](https://www.rakutenadvertising.com) | Affiliate and advertising network | Free account | Global brands, advanced tracking | Product and service commissions | 3 |
+| [Awin](https://www.awin.com) | Global affiliate network | Free account, $5 activation fee | 15,000+ advertisers, cross-device tracking | Product and service commissions | 4 |
+| [Impact](https://impact.com) | Partnership automation platform | Free account | Diverse partnership types, automation | Affiliate, influencer, B2B partnerships | 3 |
+| [Skimlinks](https://skimlinks.com) | Automated affiliate link monetization | Free account | Automatic link monetization, merchant search | Product commissions, content monetization | 5 |
 
-This comprehensive list provides a wide range of free platforms for making money online in 2025. Remember that while these platforms offer free tiers, some may have paid features or take a percentage of earnings. Always read the terms of service and stay updated on any changes to the platforms' policies.
+This comprehensive list of free platforms for making money online in 2025 covers a wide range of opportunities across various categories. Remember that while these platforms offer free tiers, some may have paid upgrades or take a percentage of earnings. Always read the terms of service and stay updated on any changes to ensure you're using the platforms effectively and ethically.
