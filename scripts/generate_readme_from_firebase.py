@@ -238,14 +238,13 @@ def generate_readme_content(platforms_by_category):
             platform_url = platform['url'].replace('&', '&amp;')  # Encode ampersand in URL
             
             row = [
-                f"[{platform_name}]({platform_url})"
-                "/".join(
+                f"[{platform_name}]({platform_url})",
+                platform.get('description', '') + " " + "/".join(
                     [x for x in [
                         f"[(pricing)]({platform['pricing_url']})" if platform['pricing_url'] else '',
                         f"[(quick start)]({platform['quick_start_url']})" if platform['quick_start_url'] else ''
                     ] if x]
                 ),
-                platform.get('description', ''),
                 platform.get('free_tier_details', ''),
                 key_features,
                 pros,
