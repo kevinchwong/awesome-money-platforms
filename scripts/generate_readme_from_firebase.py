@@ -210,6 +210,9 @@ def generate_readme_content(platforms_by_category):
             "| Platform | Description | Free Tier | Key Features | Pros | Cons | Usefulness | Importance | Beginner Rating | Monetization |",
             "|----------|-------------|-----------|--------------|------|------|------------|------------|-----------------|--------------|"
         ])
+
+        # sort platforms by descending usefulness desc, importance desc, beginner_friendly desc
+        platforms = sorted(platforms, key=lambda x: (x.get('usefulness', 0), x.get('importance', 0), x.get('beginner_friendly', 0)), reverse=True)
         
         for platform in platforms:
             # Format key features as a bullet list
