@@ -2,15 +2,15 @@
 
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Platforms](https://img.shields.io/badge/platforms-500+-brightgreen)](https://github.com/kevinchwong/awesome-money-platforms)
+[![Platforms](https://img.shields.io/badge/platforms-600+-brightgreen)](https://github.com/kevinchwong/awesome-money-platforms)
 [![Last Updated](https://img.shields.io/badge/updated-daily-blue)](https://github.com/kevinchwong/awesome-money-platforms)
 [![Update README](https://github.com/kevinchwong/awesome-money-platforms/actions/workflows/generate-readme-from-firebase.yml/badge.svg)](https://github.com/kevinchwong/awesome-money-platforms/actions/workflows/generate-readme-from-firebase.yml)
     
 
-Last updated: 2025-05-28 23:22:04 EST
+Last updated: 2025-05-29 09:10:01 EST
 
 
-🚀 **The Ultimate Collection of 500+ Free Money-Making Platforms**
+🚀 **The Ultimate Collection of 577 Free Money-Making Platforms**
 
 Discover legitimate ways to earn money online through freelancing, content creation, 
 AI services, e-commerce, and more. Updated daily with new opportunities!

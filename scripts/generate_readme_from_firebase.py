@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import math
 import os
 import sys
 import json
@@ -168,12 +169,12 @@ def generate_readme_content(platforms_by_category):
 
     # Calculate the total number of platforms
     total_platforms = sum(category_counts.values())
-    total_platforms_rounded_to_nearest_ceiling_hundred = round(total_platforms / 100) * 100
+    total_platforms_rounded_to_nearest_floor_hundred = math.floor(total_platforms / 100) * 100
 
     # Update badge with the real count
     badges = f"""
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Platforms](https://img.shields.io/badge/platforms-{total_platforms_rounded_to_nearest_ceiling_hundred}+-brightgreen)](https://github.com/kevinchwong/awesome-money-platforms)
+[![Platforms](https://img.shields.io/badge/platforms-{total_platforms_rounded_to_nearest_floor_hundred}+-brightgreen)](https://github.com/kevinchwong/awesome-money-platforms)
 [![Last Updated](https://img.shields.io/badge/updated-daily-blue)](https://github.com/kevinchwong/awesome-money-platforms)
 [![Update README](https://github.com/kevinchwong/awesome-money-platforms/actions/workflows/generate-readme-from-firebase.yml/badge.svg)](https://github.com/kevinchwong/awesome-money-platforms/actions/workflows/generate-readme-from-firebase.yml)
     """
