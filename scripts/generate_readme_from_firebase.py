@@ -212,13 +212,13 @@ AI services, e-commerce, and more. Updated daily with new opportunities!
     content.append("")
     
     # Add each category section
-    for category, item_count in sorted(sorted_categories):
+    for category, item_count in sorted_categories:
         platforms = platforms_by_category[category]
         content.extend([
             f"## {category}",
             "",
-            "| Platform | Description | Free Tier | Key Features | Pros | Cons | Usefulness | Importance | Beginner Rating | Monetization |",
-            "|----------|-------------|-----------|--------------|------|------|------------|------------|-----------------|--------------|"
+            "Rank | Platform | Description | Free Tier | Key Features | Pros | Cons | Usefulness | Importance | Beginner Rating | Monetization |",
+            "-----|----------|-------------|-----------|--------------|------|------|------------|------------|-----------------|--------------|"
         ])
 
         # Sort platforms by metrics
@@ -232,7 +232,7 @@ AI services, e-commerce, and more. Updated daily with new opportunities!
             reverse=True
         )
         
-        for platform in platforms:
+        for rank, platform in enumerate(platforms, start=1):
             # Format lists
             key_features = format_list_items(platform.get('key_features', []))
             pros = format_list_items(platform.get('pros', []))
@@ -254,6 +254,7 @@ AI services, e-commerce, and more. Updated daily with new opportunities!
                 additional_urls.append(f"[(quick start)]({platform['quick_start_url']})")
             
             row = [
+                f"{rank}",
                 f"[{platform_name}]({platform_url})",
                 platform.get('description', '') + " " + "/".join(additional_urls),
                 platform.get('free_tier_details', ''),
