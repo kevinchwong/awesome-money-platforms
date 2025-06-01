@@ -11,67 +11,64 @@
 [![Update README](https://github.com/kevinchwong/awesome-money-platforms/actions/workflows/generate-readme-from-firebase.yml/badge.svg)](https://github.com/kevinchwong/awesome-money-platforms/actions/workflows/generate-readme-from-firebase.yml)
     
 
-**🎯 Quick Start:** [Jump to platforms](#platforms) | [Filter by category](#categories) | [Sort by rating](#top-rated)
-
 ## 🌟 Why This List?
 - ✅ **839+ Verified Platforms** - All tested and categorized
-- 📊 **Detailed Comparisons** - Pricing, pros/cons, beginner ratings
+- 📊 **Detailed Comparisons** - Pricing, key features, monetization options, importance
 - 🚀 **Quick Start Guides** - Get earning fast with direct links
 - 💰 **Monetization Ratings** - Know your earning potential upfront
-- 🔄 **Regularly Updated** - Fresh opportunities added weekly
+- 🔄 **Regularly Updated** - Fresh opportunities added daily
 
 ## 📋 Categories
     
 
-Last updated: 2025-06-01 17:48:03 EST
+Last updated: 2025-06-01 18:42:08 EST
 
 ## 🔍 Table of Contents
 
-- [📌 Automation & Productivity (57)](#automation--productivity)
-- [📌 AI Application Platforms (56)](#ai-application-platforms)
-- [📌 Stock Media & Creative Assets (45)](#stock-media--creative-assets)
-- [📌 Mobile App Monetization (43)](#mobile-app-monetization)
-- [📌 Specialized AI Services (41)](#specialized-ai-services)
-- [📌 Affiliate Marketing (41)](#affiliate-marketing)
-- [📌 Web Hosting & Deployment (39)](#web-hosting--deployment)
-- [📌 Online Education & Courses (36)](#online-education--courses)
-- [📌 No-Code & Low-Code Platforms (36)](#no-code--low-code-platforms)
-- [📌 Digital Product Sales (27)](#digital-product-sales)
-- [📌 Online Tutoring (26)](#online-tutoring)
-- [📌 E-Commerce & Marketplace (26)](#e-commerce--marketplace)
-- [📌 Community Building & Memberships (24)](#community-building--memberships)
-- [📌 Cryptocurrency (22)](#cryptocurrency)
-- [📌 Surveys and Market Research (20)](#surveys-and-market-research)
-- [📌 Social Media Management (20)](#social-media-management)
-- [📌 Voiceover Work (19)](#voiceover-work)
-- [📌 User Testing (19)](#user-testing)
-- [📌 Print-on-Demand (19)](#print-on-demand)
-- [📌 Influencer Marketing (19)](#influencer-marketing)
-- [📌 Gig Economy (19)](#gig-economy)
-- [📌 Freelance Services (19)](#freelance-services)
-- [📌 Transcription (18)](#transcription)
-- [📌 Freelance Writing (18)](#freelance-writing)
-- [📌 Freelance Translation (18)](#freelance-translation)
-- [👩‍💼 Virtual Assistant (16)](#virtual-assistant)
-- [📌 Microtasks (15)](#microtasks)
-- [📌 Freelance Programming (15)](#freelance-programming)
-- [📌 Freelance Design (14)](#freelance-design)
-- [📌 Peer-to-Peer Services (11)](#peer-to-peer-services)
-- [📌 Content Creation & Publishing (10)](#content-creation--publishing)
-- [📝 Content Creation (9)](#content-creation)
-- [💼 Freelancing (7)](#freelancing)
-- [📌 Teaching and Tutoring (6)](#teaching-and-tutoring)
-- [📌 Online Surveys (4)](#online-surveys)
-- [📌 Social Media Monetization (3)](#social-media-monetization)
-- [👨‍🏫 Tutoring (1)](#tutoring)
-- [📌 Freelancing & Services (1)](#freelancing--services)
+- [📌 Automation & Productivity (57)](#-automation--productivity)
+- [📌 AI Application Platforms (56)](#-ai-application-platforms)
+- [📌 Stock Media & Creative Assets (45)](#-stock-media--creative-assets)
+- [📌 Mobile App Monetization (43)](#-mobile-app-monetization)
+- [🤖 Specialized AI Services (41)](#-specialized-ai-services)
+- [📢 Affiliate Marketing (41)](#-affiliate-marketing)
+- [📌 Web Hosting & Deployment (39)](#-web-hosting--deployment)
+- [📚 Online Education & Courses (36)](#-online-education--courses)
+- [📌 No-Code & Low-Code Platforms (36)](#-no-code--low-code-platforms)
+- [📌 Digital Product Sales (27)](#-digital-product-sales)
+- [👨‍🏫 Online Tutoring (26)](#-online-tutoring)
+- [🛍️ E-Commerce & Marketplace (26)](#-e-commerce--marketplace)
+- [📌 Community Building & Memberships (24)](#-community-building--memberships)
+- [📌 Cryptocurrency (22)](#-cryptocurrency)
+- [🔍 Surveys and Market Research (20)](#-surveys-and-market-research)
+- [📱 Social Media Management (20)](#-social-media-management)
+- [📌 Voiceover Work (19)](#-voiceover-work)
+- [📌 User Testing (19)](#-user-testing)
+- [📌 Print-on-Demand (19)](#-print-on-demand)
+- [📢 Influencer Marketing (19)](#-influencer-marketing)
+- [📌 Gig Economy (19)](#-gig-economy)
+- [📌 Freelance Services (19)](#-freelance-services)
+- [📌 Transcription (18)](#-transcription)
+- [✍️ Freelance Writing (18)](#-freelance-writing)
+- [🌍 Freelance Translation (18)](#-freelance-translation)
+- [👩‍💼 Virtual Assistant (16)](#-virtual-assistant)
+- [📌 Microtasks (15)](#-microtasks)
+- [📌 Freelance Programming (15)](#-freelance-programming)
+- [🎨 Freelance Design (14)](#-freelance-design)
+- [📌 Peer-to-Peer Services (11)](#-peer-to-peer-services)
+- [📝 Content Creation & Publishing (10)](#-content-creation--publishing)
+- [📝 Content Creation (9)](#-content-creation)
+- [💼 Freelancing (7)](#-freelancing)
+- [👨‍🏫 Teaching and Tutoring (6)](#-teaching-and-tutoring)
+- [📌 Online Surveys (4)](#-online-surveys)
+- [📱 Social Media Monetization (3)](#-social-media-monetization)
+- [👨‍🏫 Tutoring (1)](#-tutoring)
+- [💼 Freelancing & Services (1)](#-freelancing--services)
 
 ## 📚 How to Use This List
 
 1. **Browse by Category** - Find platforms that match your skills and interests
 2. **Check Ratings** - Look at importance and monetization potential
-3. **Review Details** - Read about free tiers and key features
-4. **Start Earning** - Use quick start guides to begin immediately
+3. **Review Details** - Read about the key features and monetization options
 
 ## ⭐ Top Categories
 
@@ -304,7 +301,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **42** | [Appnext](https://www.appnext.com) | Mobile discovery platform [(💰 pricing)](https://www.appnext.com/pricing) [(🚀 quick start)](https://www.appnext.com/sdk-documentation-android) | Free to integrate, revenue share model | <br>• App recommendations<br>• Native ads<br>• Interstitial ads<br>• Self-serve platform | Monetize through app recommendations and various ad formats | ⭐⭐ (2/5) |
 | **43** | [Kiip](https://www.kiip.me) | Moments-based rewards and advertising platform [(💰 pricing)](https://www.kiip.me/developers) [(🚀 quick start)](https://docs.kiip.me/en/android) | Free to integrate, revenue share model | <br>• Moment-based rewards<br>• Native ads<br>• Brand partnerships<br>• Analytics | Rewarded moments, native ads | ⭐⭐ (2/5) |
 
-## 📌 Specialized AI Services
+## 🤖 Specialized AI Services
 
 *41 platforms in this category*
 
@@ -352,7 +349,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **40** | [NLP Cloud](https://nlpcloud.com) | NLP API for developers [(💰 pricing)](https://nlpcloud.com/pricing) [(🚀 quick start)](https://docs.nlpcloud.com) | Limited free API calls | <br>• Named entity recognition<br>• Sentiment analysis<br>• Text generation | Build NLP-powered applications and services | ⭐⭐ (2/5) |
 | **41** | [OneAI](https://www.oneai.com) | Language AI platform for developers [(💰 pricing)](https://www.oneai.com/pricing) [(🚀 quick start)](https://www.oneai.com/docs) | Limited free API usage | <br>• Named entity recognition<br>• Sentiment analysis<br>• Text summarization | Develop NLP-powered applications and services | ⭐⭐ (2/5) |
 
-## 📌 Affiliate Marketing
+## 📢 Affiliate Marketing
 
 *41 platforms in this category*
 
@@ -446,7 +443,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **38** | [Divio](https://www.divio.com) | Divio is a cloud platform that helps developers deploy and manage web applications with ease. [(💰 pricing)](https://www.divio.com/pricing) [(🚀 quick start)](https://docs.divio.com/en/latest/introduction) | Free tier includes 1 project, 512MB RAM, 1GB storage | <br>• One-click deployments<br>• Multiple technology stacks<br>• Integrated CI/CD<br>• Automatic backups<br>• Custom domains | Host client applications, offer Divio deployment services, create and sell Divio-based solutions | ⭐⭐ (2/5) |
 | **39** | [InfinityFree](https://infinityfree.net) | Free web hosting with unlimited disk space and bandwidth [(💰 pricing)](https://infinityfree.net/#pricing) [(🚀 quick start)](https://infinityfree.net/support/getting-started/) | Unlimited storage, unlimited bandwidth, unlimited websites | <br>• PHP support<br>• MySQL databases<br>• Cloudflare CDN | Host multiple websites for learning and small projects | ⭐⭐ (2/5) |
 
-## 📌 Online Education & Courses
+## 📚 Online Education & Courses
 
 *36 platforms in this category*
 
@@ -566,7 +563,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **26** | [DPD](https://getdpd.com) | Digital product delivery system for e-commerce stores [(💰 pricing)](https://getdpd.com/pricing) [(🚀 quick start)](https://getdpd.com/help/getting-started) | No free plan, but affordable starting at $10/month with no transaction fees | <br>• Secure file delivery<br>• Customizable download pages<br>• Integration with major platforms<br>• Detailed analytics | Sell digital downloads and integrate with existing e-commerce stores | ⭐⭐ (2/5) |
 | **27** | [PayLoadz](https://www.payloadz.com) | E-commerce platform for selling digital products with built-in marketing tools [(💰 pricing)](https://www.payloadz.com/pricing.asp) [(🚀 quick start)](https://www.payloadz.com/help/getting-started.asp) | Free plan with 15% transaction fee, up to 5 products | <br>• Automated delivery<br>• Affiliate program<br>• Marketing tools<br>• Integration with major platforms | Sell digital downloads, software, and e-books | ⭐⭐ (2/5) |
 
-## 📌 Online Tutoring
+## 👨‍🏫 Online Tutoring
 
 *26 platforms in this category*
 
@@ -599,7 +596,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **25** | [Tutor Jobs Online](https://www.tutorjobsonline.com) | Platform connecting online tutors with students globally [(💰 pricing)](https://www.tutorjobsonline.com/tutors) [(🚀 quick start)](https://www.tutorjobsonline.com/tutors/signup) | Free registration for tutors, set your own rates | <br>• Various subject areas<br>• Flexible scheduling<br>• Global student base<br>• Direct messaging system | Set your own rates for tutoring sessions | ⭐⭐ (2/5) |
 | **26** | [TutorExtra](https://www.tutorextra.com) | UK-based platform for finding and offering tutoring services [(💰 pricing)](https://www.tutorextra.com/tutors) [(🚀 quick start)](https://www.tutorextra.com/register) | Free to create a tutor profile and list your services | <br>• Wide range of subjects<br>• Online and in-person options<br>• UK focus<br>• Set your own rates | Set your own rates for tutoring sessions | ⭐⭐ (2/5) |
 
-## 📌 E-Commerce & Marketplace
+## 🛍️ E-Commerce & Marketplace
 
 *26 platforms in this category*
 
@@ -692,7 +689,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **21** | [Presearch](https://www.presearch.com) | Decentralized search engine that rewards users with cryptocurrency [(💰 pricing)](https://www.presearch.com/token) [(🚀 quick start)](https://account.presearch.com/signup) | Free to use and earn rewards | <br>• Privacy-focused search<br>• Crypto rewards<br>• Node operation | Earn PRE tokens for searches and running nodes | ⭐⭐⭐ (3/5) |
 | **22** | [Brave Rewards](https://brave.com/brave-rewards/) | Earn cryptocurrency for viewing privacy-respecting ads while browsing [(💰 pricing)](https://brave.com/transparency/) [(🚀 quick start)](https://brave.com/download/) | Free to use Brave browser and opt-in to Rewards | <br>• Privacy-focused<br>• Built-in ad blocker<br>• BAT token rewards | View ads while browsing, earn BAT tokens | ⭐⭐ (2/5) |
 
-## 📌 Surveys and Market Research
+## 🔍 Surveys and Market Research
 
 *20 platforms in this category*
 
@@ -719,7 +716,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **19** | [QuickThoughts](https://www.quickthoughts.com) | Mobile app offering location-based surveys and rewards [(💰 pricing)](https://www.quickthoughts.com/rewards) [(🚀 quick start)](https://www.quickthoughts.com/download) | Free to download and use | <br>• Mobile surveys<br>• Location-based opportunities<br>• iTunes and Amazon gift cards<br>• Mystery shopping tasks | Earn rewards redeemable for iTunes or Amazon gift cards | ⭐⭐ (2/5) |
 | **20** | [Tellwut](https://www.tellwut.com) | Online community where users create and answer surveys for points [(💰 pricing)](https://www.tellwut.com/rewards) [(🚀 quick start)](https://www.tellwut.com/register) | Free to join and participate | <br>• User-generated surveys<br>• External surveys<br>• Community interaction<br>• Daily polls | Redeem points for gift cards or merchandise | ⭐⭐ (2/5) |
 
-## 📌 Social Media Management
+## 📱 Social Media Management
 
 *20 platforms in this category*
 
@@ -824,7 +821,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **18** | [Print Aura](https://printaura.com) | A print-on-demand and dropshipping service for custom apparel and accessories. [(💰 pricing)](https://printaura.com/pricing) [(🚀 quick start)](https://printaura.com/getting-started) | Free to sign up, pay only for products and shipping | <br>• White label service<br>• Integration with e-commerce platforms<br>• Eco-friendly options | Sell custom-designed products through your own online store or marketplace | ⭐⭐⭐ (3/5) |
 | **19** | [Inkthreadable](https://www.inkthreadable.co.uk) | A UK-based print-on-demand and dropshipping service for custom apparel and accessories. [(💰 pricing)](https://www.inkthreadable.co.uk/pricing) [(🚀 quick start)](https://www.inkthreadable.co.uk/getting-started) | Free to sign up, pay only for products and shipping | <br>• UK-based production<br>• Integration with e-commerce platforms<br>• Eco-friendly options | Sell custom-designed products through your own online store or marketplace | ⭐⭐ (2/5) |
 
-## 📌 Influencer Marketing
+## 📢 Influencer Marketing
 
 *19 platforms in this category*
 
@@ -927,7 +924,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **17** | [Transcribers Union](https://www.transcribersunion.com) | Transcribers Union is a platform connecting freelance transcribers with transcription projects. [(💰 pricing)](https://www.transcribersunion.com/join) [(🚀 quick start)](https://www.transcribersunion.com/join) | Free to join as a transcriber | <br>• Job board for transcribers<br>• Flexible schedule<br>• Various project types | Find and complete transcription projects through the platform | ⭐⭐⭐ (3/5) |
 | **18** | [Babbletype](https://www.babbletype.com) | Babbletype provides transcription services and hires freelance transcribers for various projects. [(💰 pricing)](https://www.babbletype.com/careers) [(🚀 quick start)](https://www.babbletype.com/careers) | Free to apply as a transcriber | <br>• Flexible schedule<br>• Various project types<br>• Weekly payments | Complete transcription projects and get paid per audio minute | ⭐⭐⭐ (3/5) |
 
-## 📌 Freelance Writing
+## ✍️ Freelance Writing
 
 *18 platforms in this category*
 
@@ -952,7 +949,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **17** | [Freelance Writer Jobs](https://www.freelancewriterjobs.com) | Job board and resource site for freelance writers [(💰 pricing)](https://www.freelancewriterjobs.com/jobs) [(🚀 quick start)](https://www.freelancewriterjobs.com/jobs) | Free access to job listings and resources | <br>• Curated writing job listings<br>• Writing tips and resources<br>• Various writing niches covered | Apply to freelance writing job postings | ⭐⭐ (2/5) |
 | **18** | [Writers Domain](https://www.writersdomain.net) | Content writing platform specializing in SEO-focused articles [(💰 pricing)](https://www.writersdomain.net/writers) [(🚀 quick start)](https://www.writersdomain.net/writers) | Free to apply as a writer | <br>• SEO-focused writing assignments<br>• Writer leveling system<br>• Regular payment schedule | Write SEO-optimized articles on various topics | ⭐⭐ (2/5) |
 
-## 📌 Freelance Translation
+## 🌍 Freelance Translation
 
 *18 platforms in this category*
 
@@ -1044,7 +1041,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **14** | [Freelance.nl](https://www.freelance.nl) | A Dutch freelance platform connecting businesses with independent professionals. [(💰 pricing)](https://www.freelance.nl/tarieven) [(🚀 quick start)](https://www.freelance.nl/registreren) | Free to join and create a basic profile | <br>• Job board<br>• Profile creation<br>• Direct client communication<br>• Community forums | Apply to projects, create a profile for clients to find you | ⭐⭐ (2/5) |
 | **15** | [Freelance-Info](https://www.freelance-info.fr) | A French platform connecting freelancers with businesses, focusing on IT and digital projects. [(💰 pricing)](https://www.freelance-info.fr/tarifs) [(🚀 quick start)](https://www.freelance-info.fr/inscription) | Free to join and create a basic profile | <br>• Focus on French market<br>• IT and digital project emphasis<br>• Direct client communication<br>• Community forums | Create a profile, apply to projects, get hired directly by clients | ⭐⭐ (2/5) |
 
-## 📌 Freelance Design
+## 🎨 Freelance Design
 
 *14 platforms in this category*
 
@@ -1083,7 +1080,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **10** | [EatWith](https://www.eatwith.com) | Platform connecting food lovers with local hosts for unique dining experiences [(💰 pricing)](https://www.eatwith.com/host) [(🚀 quick start)](https://www.eatwith.com/host/signup) | Free to sign up as a host, service fees applied on bookings | <br>• Host dining experiences<br>• Set your own menu and pricing<br>• Guest reviews and ratings<br>• Secure payment system<br>• Global platform | Host dining experiences in your home or chosen venue for guests who book through the platform | ⭐⭐ (2/5) |
 | **11** | [Boatsetter](https://www.boatsetter.com) | Peer-to-peer boat rental marketplace [(💰 pricing)](https://www.boatsetter.com/owners) [(🚀 quick start)](https://www.boatsetter.com/list-your-boat) | Free to list your boat, fees applied on rentals | <br>• Set your own rental prices<br>• Insurance coverage<br>• Vetting of renters<br>• Option to include captain services<br>• Secure payment system | Rent out your boat to others or offer captain services | ⭐⭐ (2/5) |
 
-## 📌 Content Creation & Publishing
+## 📝 Content Creation & Publishing
 
 *10 platforms in this category*
 
@@ -1130,7 +1127,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **6** | [Worksome](https://www.worksome.com) | AI-powered freelance platform connecting skilled professionals with businesses [(💰 pricing)](https://www.worksome.com/pricing) [(🚀 quick start)](https://www.worksome.com/get-started) | Free account creation and bidding on projects | <br>• AI matching algorithm<br>• Secure payments<br>• Project management tools | Bid on projects and complete freelance work | ⭐⭐⭐ (3/5) |
 | **7** | [Contra](https://contra.com) | Freelance platform focused on independent professionals [(💰 pricing)](https://contra.com/pricing) [(🚀 quick start)](https://contra.com/onboarding) | Free account creation and project bidding | <br>• Project-based work<br>• Direct client communication<br>• Portfolio showcase<br>• Payment protection | Find and complete freelance projects, set your own rates | ⭐⭐⭐ (3/5) |
 
-## 📌 Teaching and Tutoring
+## 👨‍🏫 Teaching and Tutoring
 
 *6 platforms in this category*
 
@@ -1154,7 +1151,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 | **3** | [InboxDollars](https://www.inboxdollars.com) | Rewards site offering cash for surveys, games, videos, and more. [(💰 pricing)](https://www.inboxdollars.com/rewards) [(🚀 quick start)](https://www.inboxdollars.com/register) | Free to join and participate | <br>• Cash rewards instead of points<br>• Multiple earning options<br>• $5 sign-up bonus<br>• Daily games and contests | Take surveys, play games, watch videos, read emails, and shop online | ⭐⭐⭐ (3/5) |
 | **4** | [Toluna Influencers](https://us.toluna.com) | Global community platform offering surveys, product testing, and community engagement. [(💰 pricing)](https://us.toluna.com/rewards) [(🚀 quick start)](https://us.toluna.com/registration) | Free to join and participate | <br>• Community forums and content creation<br>• Product testing opportunities<br>• Mobile app available<br>• Sponsored content | Take surveys, test products, create content, and engage in community discussions | ⭐⭐⭐ (3/5) |
 
-## 📌 Social Media Monetization
+## 📱 Social Media Monetization
 
 *3 platforms in this category*
 
@@ -1172,7 +1169,7 @@ Rank | Platform | Description | Free Tier | Key Features | Monetization | Import
 -----|----------|-------------|-----------|--------------|--------------|------------|
 | **1** | [Preply](https://preply.com) | An online tutoring platform connecting students with tutors for various subjects and languages. [(💰 pricing)](https://preply.com/en/teach) [(🚀 quick start)](https://preply.com/en/teach/apply) | Free to join as a tutor. Commission taken on completed lessons. | <br>• Wide range of subjects<br>• Flexible scheduling<br>• Built-in video platform<br>• Student matching system | Offer tutoring services in your area of expertise | ⭐⭐⭐⭐ (4/5) |
 
-## 📌 Freelancing & Services
+## 💼 Freelancing & Services
 
 *1 platforms in this category*
 
@@ -1186,7 +1183,7 @@ Found a great platform? [Submit a pull request](https://github.com/kevinchwong/a
 
 ## 🔄 Updates
 
-This list is automatically updated daily. Last update: 2025-06-01 17:48:03 EST
+This list is automatically updated daily. Last update: 2025-06-01 18:42:08 EST
 
 ## 📝 License
 
